@@ -17,12 +17,3 @@ and then open the browser and go to http://localhost:5000
 see [this link](https://box.nju.edu.cn/f/652e97d921f44007ad83/) for detailed demo video
 
 
-
-## 4. Try Docker
-
-```python
-docker build -t arxiv-query-system .
-docker run -p 5000:5000 arxiv-query-system
-```
-
-and then open the browser and go to http://localhost:5000
