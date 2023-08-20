@@ -18,7 +18,8 @@ app = Flask(__name__, template_folder='templates')
 
 CORS(app, supports_credentials=True)
 
-openai_api_key = "None"
+os.environ['OPENAI_API_KEY'] = 'dummy_key'
+
 openai_api_base = "http://172.29.7.155:8000/v1"
 milvus_host = "172.29.4.47"
 milvus_port = "19530"

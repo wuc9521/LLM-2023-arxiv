@@ -3,3 +3,6 @@ Flask_Cors==4.0.0
 langchain==0.0.268
 pandas==2.0.1
 Requests==2.31.0
+sentence-transformers==2.2.2
+openai==0.27.2
+pymilvus==2.2.6
